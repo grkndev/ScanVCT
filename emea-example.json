@@ -1,0 +1,665 @@
+[
+  {
+    "team": "BBL ESPORTS",
+    "region": "EMEA",
+    "tag": "BBL",
+    "manager": "Sinan Koyuncu <sinan@bbl.co>",
+    "roster": [
+      {
+        "name": "Egor Stepaniuk",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Egor",
+        "legal_surname": "Stepaniuk"
+      },
+      {
+        "name": "Dawid Święć",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Dawid",
+        "legal_surname": "Święć"
+      },
+      {
+        "name": "Volkan Yönal",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Volkan",
+        "legal_surname": "Yönal"
+      },
+      {
+        "name": "Süreyya Burak Alkan",
+        "status": "Reserve",
+        "end": "2027",
+        "legal_name": "Süreyya Burak",
+        "legal_surname": "Alkan"
+      },
+      {
+        "name": "Elias Olkkonen",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Elias",
+        "legal_surname": "Olkkonen"
+      },
+      {
+        "name": "Vakaris Bebravicius",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Vakaris",
+        "legal_surname": "Bebravicius"
+      },
+      {
+        "name": "Salih Onaran",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Salih",
+        "legal_surname": "Onaran"
+      }
+    ]
+  },
+  {
+    "team": "FNATIC",
+    "region": "EMEA",
+    "tag": "FNC",
+    "manager": "Colin Johnson <colin@fnatic.com >",
+    "roster": [
+      {
+        "name": "Jake Howlett",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Jake",
+        "legal_surname": "Howlett"
+      },
+      {
+        "name": "Timofey Khromov",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Timofey",
+        "legal_surname": "Khromov"
+      },
+      {
+        "name": "Leo Jannesson",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Leo",
+        "legal_surname": "Jannesson"
+      },
+      {
+        "name": "Emir Ali Beder",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Emir Ali",
+        "legal_surname": "Beder"
+      },
+      {
+        "name": "Kajetan Haremski",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Kajetan",
+        "legal_surname": "Haremski"
+      },
+      {
+        "name": "Austin Roberts",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Austin",
+        "legal_surname": "Roberts"
+      },
+      {
+        "name": "Christopher Tebbit",
+        "status": "Staff",
+        "end": "2025",
+        "legal_name": "Christopher",
+        "legal_surname": "Tebbit"
+      }
+    ]
+  },
+  {
+    "team": "FUT ESPORTS",
+    "region": "EMEA",
+    "tag": "FUT",
+    "manager": "Baki Kadıoğlu <baki@futbolist.co>",
+    "roster": [
+      {
+        "name": "Ata Tan",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Ata",
+        "legal_surname": "Tan"
+      },
+      {
+        "name": "Furkan Yeğen",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Furkan",
+        "legal_surname": "Yeğen"
+      },
+      {
+        "name": "Doğukan Balaban",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Doğukan",
+        "legal_surname": "Balaban"
+      },
+      {
+        "name": "Eray Budak",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Eray",
+        "legal_surname": "Budak"
+      },
+      {
+        "name": "Mehmet Yağiz İpek",
+        "status": "Reserve",
+        "end": "2025",
+        "legal_name": "Mehmet Yağiz",
+        "legal_surname": "İpek"
+      },
+      {
+        "name": "Yusuf Doğan Gözgen",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Yusuf Doğan",
+        "legal_surname": "Gözgen"
+      },
+      {
+        "name": "Eray Sarikaya",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Eray",
+        "legal_surname": "Sarikaya"
+      }
+    ]
+  },
+  {
+    "team": "GiantX",
+    "region": "EMEA",
+    "tag": "GX",
+    "manager": "David Alonso <david.alonso@goodgamegroup.org>",
+    "roster": [
+      {
+        "name": "Semyon Borchev",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Semyon",
+        "legal_surname": "Borchev"
+      },
+      {
+        "name": "Jan Peter Rahkonen",
+        "status": "Reserve",
+        "end": "2025",
+        "legal_name": "Jan Peter",
+        "legal_surname": "Rahkonen"
+      },
+      {
+        "name": "Kirill Nekhozhin",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Kirill",
+        "legal_surname": "Nekhozhin"
+      },
+      {
+        "name": "Emil Trajkovski",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Emil",
+        "legal_surname": "Trajkovski"
+      },
+      {
+        "name": "Miłosz Tomasz Duda",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Miłosz Tomasz",
+        "legal_surname": "Duda"
+      },
+      {
+        "name": "Tomás Fernandes Machado",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Tomás",
+        "legal_surname": "Fernandes Machado"
+      },
+      {
+        "name": "Daniil Meshcheriakov",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Daniil",
+        "legal_surname": "Meshcheriakov"
+      }
+    ]
+  },
+  {
+    "team": "KARMINE CORP",
+    "region": "EMEA",
+    "tag": "KC",
+    "manager": "Clement Laparra <clement.laparra@karminecorp.fr>",
+    "roster": [
+      {
+        "name": "Martin Penkov",
+        "status": "Reserve",
+        "end": "2025",
+        "legal_name": "Martin",
+        "legal_surname": "Penkov"
+      },
+      {
+        "name": "Martin Pátek",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Martin",
+        "legal_surname": "Pátek"
+      },
+      {
+        "name": "Ahmed Radwan",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Ahmed",
+        "legal_surname": "Radwan"
+      },
+      {
+        "name": "Dmitrii Iliushin",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Dmitrii",
+        "legal_surname": "Iliushin"
+      },
+      {
+        "name": "Matias Delipetro",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Matias",
+        "legal_surname": "Delipetro"
+      },
+      {
+        "name": "Hazem Khaled",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Hazem",
+        "legal_surname": "Khaled"
+      },
+      {
+        "name": "Yakup Efe Teber",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Yakup Efe",
+        "legal_surname": "Teber"
+      },
+      {
+        "name": "Andrey Sholokhov",
+        "status": "Staff",
+        "end": "2027",
+        "legal_name": "Andrey",
+        "legal_surname": "Sholokhov"
+      }
+    ]
+  },
+  {
+    "team": "MKOI",
+    "region": "EMEA",
+    "tag": "KOI",
+    "manager": "Till Werdermann <till@oam.gg>",
+    "roster": [
+      {
+        "name": "Grzegorz Ryczko",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Grzegorz",
+        "legal_surname": "Ryczko"
+      },
+      {
+        "name": "Bogdan Naumov",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Bogdan",
+        "legal_surname": "Naumov"
+      },
+      {
+        "name": "Tobias Flodström",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Tobias",
+        "legal_surname": "Flodström"
+      },
+      {
+        "name": "Dominic Sulcas",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Dominic",
+        "legal_surname": "Sulcas"
+      },
+      {
+        "name": "Dawid Czarnecki",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Dawid",
+        "legal_surname": "Czarnecki"
+      },
+      {
+        "name": "Xavier Carlson",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Xavier",
+        "legal_surname": "Carlson"
+      },
+      {
+        "name": "Henry Robert Peter Mepham",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Henry Robert Peter",
+        "legal_surname": "Mepham"
+      }
+    ]
+  },
+  {
+    "team": "NAVI",
+    "region": "EMEA",
+    "tag": "NAVI",
+    "manager": "Aleksey Kucherov <aleksey.k@navi-gaming.com>",
+    "roster": [
+      {
+        "name": "Kyrylo Karasov",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Kyrylo",
+        "legal_surname": "Karasov"
+      },
+      {
+        "name": "Andrei Kiprskii",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Andrei",
+        "legal_surname": "Kiprskii"
+      },
+      {
+        "name": "Emirhan Kat",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Emirhan",
+        "legal_surname": "Kat"
+      },
+      {
+        "name": "Gianfranco Potestio",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Gianfranco",
+        "legal_surname": "Potestio"
+      },
+      {
+        "name": "Uğur Güç",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Uğur",
+        "legal_surname": "Güç"
+      },
+      {
+        "name": "Vincent Cervoni",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Vincent",
+        "legal_surname": "Cervoni"
+      }
+    ]
+  },
+  {
+    "team": "TEAM HERETICS",
+    "region": "EMEA",
+    "tag": "TH",
+    "manager": "Niklas Geiß <niklas@teamheretics.com >",
+    "roster": [
+      {
+        "name": "Brandon William Weber",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Brandon William",
+        "legal_surname": "Weber"
+      },
+      {
+        "name": "Dominykas Lukaševičius",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Dominykas",
+        "legal_surname": "Lukaševičius"
+      },
+      {
+        "name": "Esad Enes Ecirli",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Esad Enes",
+        "legal_surname": "Ecirli"
+      },
+      {
+        "name": "Gökan Mert Alkan",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Gökan Mert",
+        "legal_surname": "Alkan"
+      },
+      {
+        "name": "Benjamin David Fish",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Benjamin",
+        "legal_surname": "David Fish"
+      },
+      {
+        "name": "Ričardas Lukaševičius",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Ričardas",
+        "legal_surname": "Lukaševičius"
+      },
+      {
+        "name": "Neil Finlay",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Neil",
+        "legal_surname": "Finlay"
+      },
+      {
+        "name": "Oscar Cañellas Colocho",
+        "status": "Retired",
+        "end": "2025",
+        "legal_name": "Oscar",
+        "legal_surname": "Cañellas Colocho"
+      }
+    ]
+  },
+  {
+    "team": "TEAM LIQUID",
+    "region": "EMEA",
+    "tag": "TL",
+    "manager": "Brittany Lattanzio <blattanzio@teamliquid.com>",
+    "roster": [
+      {
+        "name": "Ayaz Akhmetshin",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Ayaz",
+        "legal_surname": "Akhmetshin"
+      },
+      {
+        "name": "Georgio Sanassy",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Georgio",
+        "legal_surname": "Sanassy"
+      },
+      {
+        "name": "Kamil Frąckowiak",
+        "status": "Active",
+        "end": "2027",
+        "legal_name": "Kamil",
+        "legal_surname": "Frąckowiak"
+      },
+      {
+        "name": "Patryk Fabrowski",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Patryk",
+        "legal_surname": "Fabrowski"
+      },
+      {
+        "name": "Maksymilian Jan Rychlewski",
+        "status": "Active",
+        "end": "2027",
+        "legal_name": "Maksymilian Jan",
+        "legal_surname": "Rychlewski"
+      },
+      {
+        "name": "Ivo Renato Da Silva Santos Albino",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Ivo",
+        "legal_surname": "Renato Da Silva Santos Albino"
+      }
+    ]
+  },
+  {
+    "team": "TEAM VITALITY",
+    "region": "EMEA",
+    "tag": "VIT",
+    "manager": "Anne Banschbach <anne.banschbach@vitality.gg>",
+    "roster": [
+      {
+        "name": "Kimmie Laasner",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Kimmie",
+        "legal_surname": "Laasner"
+      },
+      {
+        "name": "Saif Jibraeel",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Saif",
+        "legal_surname": "Jibraeel"
+      },
+      {
+        "name": "Nikita Cherednichenko",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Nikita",
+        "legal_surname": "Cherednichenko"
+      },
+      {
+        "name": "Nikita Sirmitev",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Nikita",
+        "legal_surname": "Sirmitev"
+      },
+      {
+        "name": "Felipe de Loyola Basso",
+        "status": "Active",
+        "end": "2026",
+        "legal_name": "Felipe",
+        "legal_surname": "de Loyola Basso"
+      },
+      {
+        "name": "Daniel Hwang",
+        "status": "Staff",
+        "end": "2026",
+        "legal_name": "Daniel",
+        "legal_surname": "Hwang"
+      }
+    ]
+  },
+  {
+    "team": "Gentle Mates",
+    "region": "EMEA",
+    "tag": "M8",
+    "manager": "Samy Mazouzi <samishh@gentlemates.com>",
+    "roster": [
+      {
+        "name": "Robbie Boerkamp",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Robbie",
+        "legal_surname": "Boerkamp"
+      },
+      {
+        "name": "Ali Hayedem",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Ali",
+        "legal_surname": "Hayedem"
+      },
+      {
+        "name": "Patrik Hušek",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Patrik",
+        "legal_surname": "Hušek"
+      },
+      {
+        "name": "Thomas Johner",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Thomas",
+        "legal_surname": "Johner"
+      },
+      {
+        "name": "Pontus Eek",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Pontus",
+        "legal_surname": "Eek"
+      },
+      {
+        "name": "Alejandro López Campoy",
+        "status": "Staff",
+        "end": "2025",
+        "legal_name": "Alejandro",
+        "legal_surname": "López Campoy"
+      }
+    ]
+  },
+  {
+    "team": "Apeks",
+    "region": "EMEA",
+    "tag": "APK",
+    "manager": "Anders K <anders@apeks.gg>",
+    "roster": [
+      {
+        "name": "Auni Chahade",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Auni",
+        "legal_surname": "Chahade"
+      },
+      {
+        "name": "Michał Łącki",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Michał",
+        "legal_surname": "Łącki"
+      },
+      {
+        "name": "Miller Chad",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Miller",
+        "legal_surname": "Chad"
+      },
+      {
+        "name": "Tautvydas Paldavicius",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Tautvydas",
+        "legal_surname": "Paldavicius"
+      },
+      {
+        "name": "Mehmet Batu Özaslan",
+        "status": "Active",
+        "end": "2025",
+        "legal_name": "Mehmet Batu",
+        "legal_surname": "Özaslan"
+      },
+      {
+        "name": "Danail Sofroniev",
+        "status": "Staff",
+        "end": "2025",
+        "legal_name": "Danail",
+        "legal_surname": "Sofroniev"
+      }
+    ]
+  }
+]
