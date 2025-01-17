@@ -14,6 +14,20 @@ const GIDS = {
 const BASE_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmmWiBmMMD43m5VtZq54nKlmj0ZtythsA1qCpegwx-iRptx2HEsG0T3cQlG1r2AIiKxBWnaurJZQ9Q/pub?gid={{GID}}&output=csv";
 
+function sendNotification(msg, title) {
+  fetch("https://exp.host/--/api/v2/push/send", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      to: "ExponentPushToken[2vH8aqNUGlIytRgV3MY9zM]",
+      title,
+      body: msg,
+    }),
+  });
+}
+
 function createChangeMessage(change, team) {
   switch (change.type) {
     case "player_added":
@@ -74,6 +88,7 @@ function saveUpdate(region, changeType, oldData, changes, timestamp) {
       for (const rosterChange of change.changes) {
         const message = createChangeMessage(rosterChange, change.team);
         if (message) {
+          sendNotification(message, "Roster updated");
           newMessages.push({
             timestamp,
             region,
@@ -82,16 +97,20 @@ function saveUpdate(region, changeType, oldData, changes, timestamp) {
         }
       }
     } else if (change.type === "team_added") {
+      const message = `New team ${change.team} has been added to ${region}`;
+      sendNotification(message, "New team added");
       newMessages.push({
         timestamp,
         region,
-        message: `New team ${change.team} has been added to ${region}`,
+        message,
       });
     } else if (change.type === "team_removed") {
+      const message = `Team ${change.team} has been removed from ${region}`;
+      sendNotification(message, "Team removed");
       newMessages.push({
         timestamp,
         region,
-        message: `Team ${change.team} has been removed from ${region}`,
+        message,
       });
     }
   }
