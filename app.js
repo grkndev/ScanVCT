@@ -286,7 +286,7 @@ function processTeamData(records) {
 
     if (currentTeam && firstName && familyName) {
       currentTeam.roster.push({
-        name: `${firstName} ${familyName}`,
+        name: tournament,
         status: rosterStatus,
         end: endDate,
         legal_name: firstName,
