@@ -1,8 +1,22 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
-const { parse } = require("csv-parse");
-const cron = require("node-cron");
-const deepEqual = require("deep-equal");
+
+import fs from "fs";
+import fetch from "node-fetch";
+import { parse } from "csv-parse";
+import cron from "node-cron";
+import deepEqual from "deep-equal";
+import dotenv from "dotenv";
+import { TwitterApi } from "twitter-api-v2";
+
+dotenv.config();
+
+const twitterV2Client = new TwitterApi({
+  appKey: process.env.TWITTER_CONSUMER_KEY,
+  appSecret: process.env.TWITTER_CONSUMER_SECRET,
+  clientId: process.env.TWITTER_CLIENT_ID,
+  clientSecret: process.env.TWITTER_CLIENT_SECRET,
+  accessToken: process.env.TWITTER_ACCESS_TOKEN,
+  accessSecret: process.env.TOKEN_SECRET,
+});
 
 const GIDS = {
   AMERICAS: "1856086064",
@@ -27,7 +41,20 @@ function sendNotification(msg, title) {
     }),
   });
 }
-
+async function sendTweet(msg) {
+  const tweet = `🚨 VCT DATABASE UPDATE 🚨\n\n${msg}\n\n#VCT #VALORANTChampionsTour #VALORANT`;
+  twitterV2Client.v2
+    .tweet("TWEET", { text: tweet })
+    .then((response) => {
+      console.log(
+        "Tweet sent:",
+        `https://x.com/VCTContract/status/${response.data.id}`
+      );
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
 function createChangeMessage(change, team) {
   switch (change.type) {
     case "player_added":
@@ -89,6 +116,7 @@ function saveUpdate(region, changeType, oldData, changes, timestamp) {
         const message = createChangeMessage(rosterChange, change.team);
         if (message) {
           sendNotification(message, "Roster updated");
+          sendTweet(message);
           newMessages.push({
             timestamp,
             region,
@@ -99,6 +127,7 @@ function saveUpdate(region, changeType, oldData, changes, timestamp) {
     } else if (change.type === "team_added") {
       const message = `New team ${change.team} has been added to ${region}`;
       sendNotification(message, "New team added");
+      sendTweet(message);
       newMessages.push({
         timestamp,
         region,
@@ -107,6 +136,7 @@ function saveUpdate(region, changeType, oldData, changes, timestamp) {
     } else if (change.type === "team_removed") {
       const message = `Team ${change.team} has been removed from ${region}`;
       sendNotification(message, "Team removed");
+      sendTweet(message);
       newMessages.push({
         timestamp,
         region,
@@ -459,7 +489,6 @@ async function processAllRegions() {
     console.error(`[${timestamp}] Fatal error:`, error);
   }
 }
-
 cron.schedule("*/5 * * * *", () => {
   processAllRegions().catch((error) => {
     console.error("CronJob error:", error);
