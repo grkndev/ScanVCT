@@ -21,7 +21,7 @@ function sendNotification(msg, title) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      to: "ExponentPushToken[2vH8aqNUGlIytRgV3MY9zM]",
+      to: process.env.NOTF_TOKEN,
       title,
       body: msg,
     }),
